@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.car , .menu{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+}
+
+h1{
+    font-size: 6rem;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    color: #FFF;
+}
+
+a:hover{
+    color: rgb(0, 255, 242);
+}
+
+.menu{
+    background-image:linear-gradient(rgba(0,0,0 , 0.3) , rgba(0,0,0, 0.3)) , url(../images/menu.jpg);
+    background-size: cover;
+}
+
+.lamborgini{
+    background-image: linear-gradient(rgba(0,0,0 , 0.5) , rgba(0,0,0, 0.5)) , url('../images/lamborgini.jpg');
+}
+.bugatti{
+    background-image: linear-gradient(rgba(0,0,0 , 0.5) , rgba(0,0,0, 0.5)) , url('../images/bugatti.jpg');
+}
+.supra{
+    background-image: linear-gradient(rgba(0,0,0 , 0.5) , rgba(0,0,0, 0.5)) , url('../images/supra.jpg');
+}
+.mercedes{
+    background-image: linear-gradient(rgba(0,0,0 , 0.5) , rgba(0,0,0, 0.5)) , url('../images/mercedes.jpg');
+}
+.bmw{
+    background-image: linear-gradient(rgba(0,0,0 , 0.5) , rgba(0,0,0, 0.5)) , url('../images/bmw.jpg');
+}
+.koenigsegg{
+    background-image: linear-gradient(rgba(0,0,0 , 0.5) , rgba(0,0,0, 0.5)) , url('../images/koenigsegg.jpg');
+}
